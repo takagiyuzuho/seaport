@@ -12,13 +12,16 @@
 .content-inner {
   width: 960px;
   margin: 60px auto;
+  overflow: hidden;
 
   .l-article-main {
     width: 600px;
     overflow: hidden;
+    float: left;
+    margin-right: 60px;
+  }
+  .l-sidebar {
+    width: 300px;
+    float: right;
   }
 }
-
-
-
-
