@@ -10,11 +10,14 @@
 <head>
     <meta charset="UTF-8">
     <title>SEAPORT | 海好きの海に関するメディア</title>
-    <% include view/_header %>
+    <% include view/_head %>
 </head>
 <body>
-    <% include view/_main %>
-    <% include view/_aside %>
+    <% include view/_header %>
+    <div class="content-inner">
+        <% include view/_single %>
+        <% include view/_aside %>
+    </div>
     <% include view/_footer %>
 <script src="assets/js/app.js" async></script>
 </body>
